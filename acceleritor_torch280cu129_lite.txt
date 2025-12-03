@@ -3,8 +3,8 @@
 #PYTORCH*********************************************************************
 # --extra-index-url=https://download.pytorch.org/whl/nightly/cpu 
 --extra-index-url=https://download.pytorch.org/whl/cu129 
-torch==2.9.1 ; sys_platform  != 'darwin'
-torch ; sys_platform  == 'darwin'
+torch==2.9.1 ; sys_platform  != 'linux'
+torch ; sys_platform  == 'linux'
 torchsde
 torchvision
 torchaudio
@@ -12,7 +12,7 @@ torchaudio
 
 #XFORMERS*******************************************************************
 #needs pytorch
-xformers ; sys_platform  != 'darwin'
+xformers ; sys_platform  != 'linux'
 
 
 # TRITON********************************************************************
