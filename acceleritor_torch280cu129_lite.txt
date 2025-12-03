@@ -19,7 +19,7 @@ xformers ; sys_platform  != 'darwin'
 # Needs Pytorch
 # https://github.com/woct0rdho/triton-windows/releases/download/empty/triton-3.3.0-py3-none-any.whl ; sys_platform == 'win32' # tw
 # triton-windows==3.4.0.post20 ; sys_platform == 'win32' # tw
-triton==3.4.0 ; sys_platform == 'linux'
+# triton==3.4.0 ; sys_platform == 'linux'
 
 
 #FLASH ATTENTION************************************************************
