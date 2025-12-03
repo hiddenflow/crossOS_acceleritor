@@ -25,7 +25,7 @@ xformers ; sys_platform  != 'darwin'
 #FLASH ATTENTION************************************************************
 #Needs pytorch
 # https://github.com/loscrossos/lib_compileguides/releases/download/2025.11/flash_attn-2.8.2+cu129torch2.8.0-cp312-cp312-win_amd64.whl    ; sys_platform == 'win32' and python_version == "3.12" #egg2.8.0
-# https://github.com/loscrossos/lib_compileguides/releases/download/2025.11/flash_attn-2.8.2+cu129torch2.8.0-cp312-cp312-linux_x86_64.whl ; sys_platform == 'linux' and python_version == "3.12" #egg2.8.0
+https://github.com/loscrossos/lib_compileguides/releases/download/2025.11/flash_attn-2.8.2+cu129torch2.8.0-cp312-cp312-linux_x86_64.whl ; sys_platform == 'linux' and python_version == "3.12" #egg2.8.0
 # https://github.com/loscrossos/lib_flashattention/releases/download/v2.8.2/flash_attn-2.8.2+cu129torch2.8.0-cp313-cp313-win_amd64.whl    ; sys_platform == 'win32' and python_version == "3.13" #egg2.8.0
 # https://github.com/loscrossos/lib_compileguides/releases/download/2025.11/flash_attn-2.8.2+cu129torch2.8.0-cp313-cp313-linux_x86_64.whl ; sys_platform == 'linux' and python_version == "3.13" #egg2.8.0
 
