@@ -1,11 +1,13 @@
 #LosCrossOS - Acceleritor: check https://github.com/loscrossos/crossOS_acceleritor for updates
 
 #FLASH ATTENTION************************************************************
-git clone https://github.com/Dao-AILab/flash-attention.git
-cd hopper
+git clone https://github.com/thu-ml/SageAttention.git
+cd SageAttention 
+export EXT_PARALLEL=4 NVCC_APPEND_FLAGS="--threads 8" MAX_JOBS=32 # Optional
 python setup.py install
 
 #SAGE ATTENTION*************************************************************
-git clone https://github.com/thu-ml/SageAttention.git
-cd SageAttention
-python setup.py install
+# https://github.com/woct0rdho/SageAttention/releases/download/v2.2.0-windows.post2/sageattention-2.2.0+cu128torch2.8.0.post2-cp39-abi3-win_amd64.whl ; sys_platform == 'win32'  #egg:v2.2.2
+https://github.com/loscrossos/lib_sageattention/releases/download/v2.2.0/sageattention-2.2.0+cu129torch280-cp312-cp312-linux_x86_64.whl ; sys_platform == 'linux' and python_version == "3.12" #egg:v2.2.2
+# https://github.com/loscrossos/lib_sageattention/releases/download/v2.2.0/sageattention-2.2.0+cu129torch280-cp313-cp313-linux_x86_64.whl ; sys_platform == 'linux' and python_version == "3.13"  #egg:v2.2.2
+# https://huggingface.co/Kijai/PrecompiledWheels/blob/main/sageattention-2.2.0-cp312-cp312-linux_x86_64.whl ; sys_platform == 'linux' and python_version == "3.12" #egg:v2.2.2
