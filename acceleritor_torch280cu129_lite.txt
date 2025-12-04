@@ -11,5 +11,3 @@ https://github.com/loscrossos/lib_compileguides/releases/download/2025.11/flash_
 https://github.com/loscrossos/lib_sageattention/releases/download/v2.2.0/sageattention-2.2.0+cu129torch280-cp312-cp312-linux_x86_64.whl ; sys_platform == 'linux' and python_version == "3.12" #egg:v2.2.2
 # https://github.com/loscrossos/lib_sageattention/releases/download/v2.2.0/sageattention-2.2.0+cu129torch280-cp313-cp313-linux_x86_64.whl ; sys_platform == 'linux' and python_version == "3.13"  #egg:v2.2.2
 # https://huggingface.co/Kijai/PrecompiledWheels/blob/main/sageattention-2.2.0-cp312-cp312-linux_x86_64.whl ; sys_platform == 'linux' and python_version == "3.12" #egg:v2.2.2
-
-accelerate >= 1.1.1
