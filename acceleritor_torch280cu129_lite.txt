@@ -1,8 +1,5 @@
 #LosCrossOS - Acceleritor: check https://github.com/loscrossos/crossOS_acceleritor for updates
 
-#XFORMERS*******************************************************************
-xformers ; sys_platform  != 'darwin'
-
 #FLASH ATTENTION************************************************************
 # https://github.com/loscrossos/lib_compileguides/releases/download/2025.11/flash_attn-2.8.2+cu129torch2.8.0-cp312-cp312-win_amd64.whl    ; sys_platform == 'win32' and python_version == "3.12" #egg2.8.0
 https://github.com/loscrossos/lib_compileguides/releases/download/2025.11/flash_attn-2.8.2+cu129torch2.8.0-cp312-cp312-linux_x86_64.whl ; sys_platform == 'linux' and python_version == "3.12" #egg2.8.0
